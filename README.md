@@ -1,0 +1,7 @@
+- clone train-mlflow-docker and checkout branch with patch changes
+- clone mlflow repo, checkout 3.9 branch, apply the patch
+- clone this repo, run ./reset_mlflow.sh
+- run ./serve.sh
+- in another terminal window, source .env_common
+- call ./create_run.sh 1
+- then call ./log_artifact.sh <runid>
