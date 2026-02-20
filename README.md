@@ -1,6 +1,7 @@
 dependencies:
 - minio client (mc)
 - git
+- uv
 
 run:
 
