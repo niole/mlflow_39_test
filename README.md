@@ -1,3 +1,9 @@
+dependencies:
+- minio client (mc)
+- git
+
+run:
+
 - clone train-mlflow-docker and checkout branch with patch changes
 - clone mlflow repo, checkout 3.9 branch, apply the patch
 - clone this repo, run ./reset_mlflow.sh
